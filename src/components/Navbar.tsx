@@ -46,15 +46,6 @@ export default function Navbar() {
           ))}
         </ul>
 
-        <a
-          href="/resume.pdf"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="hidden md:inline-flex px-4 py-2 rounded-lg border border-slate-500/30 text-slate-300 text-sm font-medium hover:bg-slate-500/10 transition-all"
-        >
-          Resume
-        </a>
-
         <button
           className="md:hidden text-slate-400 hover:text-white"
           onClick={() => setOpen(!open)}
@@ -78,11 +69,6 @@ export default function Navbar() {
                 </a>
               </li>
             ))}
-            <li>
-              <a href="/resume.pdf" target="_blank" rel="noopener noreferrer" className="text-slate-300 text-sm font-medium">
-                Resume
-              </a>
-            </li>
           </ul>
         </div>
       )}

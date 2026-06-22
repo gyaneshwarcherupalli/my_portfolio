@@ -248,20 +248,20 @@ export default function Hero() {
       <div className="floating-shape top-[25%] left-[20%] w-10 h-10 border border-slate-500 animate-float-delayed" style={{ animationDelay: "3s" }} />
 
       <div className="relative z-10 text-center px-6 max-w-5xl">
-        <div className="inline-flex items-center gap-2 px-5 py-2.5 rounded-full border border-slate-500/20 bg-slate-500/[0.04] text-slate-400 text-sm mb-12 opacity-0 animate-fadeInUp backdrop-blur-sm">
+        <div className="inline-flex items-center gap-2 px-5 py-2.5 rounded-full border border-slate-500/20 bg-slate-500/[0.04] text-slate-400 text-sm mb-12 animate-fadeInUp backdrop-blur-sm">
           <span className="w-2 h-2 rounded-full bg-slate-300 animate-pulse" />
           Open to opportunities
         </div>
 
-        <h1 className="text-7xl sm:text-8xl md:text-9xl lg:text-[11rem] font-black tracking-tighter mb-2 opacity-0 animate-fadeInUp delay-100 leading-[0.85] glitch-hover">
+        <h1 className="text-7xl sm:text-8xl md:text-9xl lg:text-[11rem] font-black tracking-tighter mb-2 animate-fadeInUp delay-100 leading-[0.85] glitch-hover">
           <TextScramble text="Gyaneshwar" className="text-slate-100" delay={300} />
         </h1>
 
-        <p className="text-2xl sm:text-3xl md:text-4xl font-semibold text-slate-500 mb-16 opacity-0 animate-fadeInUp delay-200">
+        <p className="text-2xl sm:text-3xl md:text-4xl font-semibold text-slate-500 mb-16 animate-fadeInUp delay-200">
           Data Scientist
         </p>
 
-        <div className="flex flex-col sm:flex-row items-center justify-center gap-5 mb-16 opacity-0 animate-fadeInUp delay-300">
+        <div className="flex flex-col sm:flex-row items-center justify-center gap-5 mb-16 animate-fadeInUp delay-300">
           <a
             href="#projects"
             className="px-10 py-4 rounded-xl bg-slate-200 text-slate-900 font-semibold text-sm hover:bg-white hover:scale-105 transition-all shadow-2xl shadow-slate-400/10"

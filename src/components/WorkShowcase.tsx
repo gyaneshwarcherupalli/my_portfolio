@@ -80,13 +80,13 @@ function CorrelationHeatmap() {
 
           let r: number, g: number, b: number;
           if (corr >= 0) {
-            r = 16 + (99 - 16) * absCorr;
-            g = 185 + (102 - 185) * absCorr;
-            b = 129 + (241 - 129) * absCorr;
+            r = 148 + (226 - 148) * absCorr;
+            g = 163 + (232 - 163) * absCorr;
+            b = 184 + (240 - 184) * absCorr;
           } else {
-            r = 236;
-            g = 72 + (72 * (1 - absCorr));
-            b = 153 + (100 * (1 - absCorr));
+            r = 100 + (148 - 100) * (1 - absCorr);
+            g = 116 + (163 - 116) * (1 - absCorr);
+            b = 139 + (184 - 139) * (1 - absCorr);
           }
 
           const intensity = 0.06 + absCorr * 0.18;

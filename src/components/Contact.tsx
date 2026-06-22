@@ -2,7 +2,7 @@
 
 import { useRef, useCallback } from "react";
 import { Mail } from "lucide-react";
-import { GithubIcon, LinkedinIcon, XIcon } from "@/components/Icons";
+import { GithubIcon, LinkedinIcon } from "@/components/Icons";
 import ScrollReveal from "@/components/ScrollReveal";
 
 const links = [
@@ -26,13 +26,6 @@ const links = [
     href: "https://github.com/gyaneshwarcherupalli",
     display: "gyaneshwarcherupalli",
     glowColor: "148,163,184",
-  },
-  {
-    icon: XIcon,
-    label: "Twitter / X",
-    href: "https://twitter.com/gyaneshwar_ds",
-    display: "@gyaneshwar_ds",
-    glowColor: "100,116,139",
   },
 ];
 
@@ -99,7 +92,7 @@ export default function Contact() {
           <p className="text-slate-500 text-sm">Open to roles, collaboration, or a chat about data.</p>
         </ScrollReveal>
 
-        <div className="grid sm:grid-cols-2 gap-4">
+        <div className="grid sm:grid-cols-3 gap-4">
           {links.map((l, i) => (
             <ContactCard key={l.label} link={l} index={i} />
           ))}
